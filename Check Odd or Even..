@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("ENTER A VALUE OF A :");
+    
+    scanf("%d",&a);
+    
+    if(a%2==0)
+        {
+         printf("IT's EVEN NUMBER...");   
+        }
+    else
+    {
+         printf("IT,s ODD NUMBER...");
+    }
+    
+    return 0;
+}
