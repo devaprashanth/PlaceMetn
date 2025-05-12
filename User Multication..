@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("ENTER A VALUE OF A :");
+    scanf("%d",&a);
+    
+    printf("MULTIPLY NUMBER    :");
+    scanf("%d",&b);
+    
+    c=a*b;
+    printf("\nThe Multiplecation Answer Is :%d",c);
+    
+    return 0;
+}
