@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main() 
+  {
+     int a,b,c;
+     
+     printf("ENTER A VALUE OF A :");
+     scanf("%d",&a);
+     printf("\nENTER A VALUE OF B :");
+     scanf("%d",&b);
+     
+     c=a+b;
+     printf("The Add Value Is : %d\n",c);
+     
+     c=a-b;
+     printf("The Sub Value Is : %d\n",c);
+     
+     c=a*b;
+     printf("The Mul Value Is : %d\n",c);
+     
+     c=a/b;
+     printf("The Div Value Is : %d\n",c);
+     
+     return 0;
+      
+      
+    
+}
