@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    float simple,rate,time,princ;
+    printf("ENTER A RATE     :");
+    scanf("%f",&rate);
+    printf("ENTER A TIME     :");
+    scanf("%f",&time);
+    printf("ENTER A PRINCPAL :");
+    scanf("%f",&princ);
+    simple=princ*rate*time/100;
+    printf("\nTHE SIMPLE INTREST IS...: %f",simple);
+}
