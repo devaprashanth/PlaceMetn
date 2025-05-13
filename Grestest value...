@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("Enter a value of A :");
+scanf("%d",&a);
+printf("Enter a value of B :");
+scanf("%d",&b);
+if(a>b)
+{
+    printf("A IS GREATEST NUMBER... :%d",a);
+    
+}
+else
+{
+    printf("B IS GREATEST NUMBER :%d",b);
+}
+return 0;
+}
