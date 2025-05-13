@@ -1,0 +1,56 @@
+#include<stdio.h>
+int main()
+{
+int m1,m2,m3,m4,m5,sum;
+float a;
+
+    printf("Enter A Value Of M1 :");
+    scanf("%d",&m1);
+    printf("Enter A Value Of M2 :");
+    scanf("%d",&m2);
+    printf("Enter A Value Of M3 :");
+    scanf("%d",&m3);
+    printf("Enter A Value Of M4 :");
+    scanf("%d",&m4);
+    printf("Enter A Value Of M5 :");
+    scanf("%d",&m5);
+    
+    sum=m1+m2+m3+m4+m5;
+    
+    printf("\nTotal Mark Is :%d",sum);
+    
+    a=sum/5;
+    
+    printf("\n\nYour Percentage Is : %f",a);
+    
+    if(a>90 && 100>a)
+     {
+         printf("\n\nYour Grade Is 'A'...");
+     }
+     if(a>80 && 90>a)
+     {
+         printf("\n\nYour Grade Is 'B'...");
+     }
+     if(a>70 && 80>a)
+     {
+         printf("\n\nYour Grade Is 'c'...");
+     }
+     if(a>60 && 70>a)
+     {
+         printf("\n\nYour Grade Is 'D'...");
+     }
+     if(a>50 && 60>a)
+     {
+         printf("\n\nYour Grade Is 'C'...");
+     }
+     if(a>40 && 50>a)
+     {
+         printf("\n\nYour Grade Is 'E'...");
+     }
+     if(a>30 && 40>a)
+     {
+         printf("\n\nYour Fail In The Examination...");
+     }
+    
+ return 0;
+}
