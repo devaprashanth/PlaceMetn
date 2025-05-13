@@ -1,19 +1,24 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
-printf("Enter a value of A :");
+int a,b;
+printf("\nEnter a value of A :");
 scanf("%d",&a);
-printf("Enter a value of B :");
+printf("\nEnter a value of B :");
 scanf("%d",&b);
 if(a>b)
 {
-    printf("A IS GREATEST NUMBER... :%d",a);
-    
+    printf("\n\nA IS GREATEST NUMBER... :%d",a);
 }
+
+else if(b>a)
+{
+    printf("\n\nB IS GREATEST NUMBER...:%d",b);
+}
+
 else
 {
-    printf("B IS GREATEST NUMBER :%d",b);
+    printf("The Numbers Are Eqal....");
 }
 return 0;
 }
