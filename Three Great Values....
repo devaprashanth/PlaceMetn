@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("\nEnter a value of A :");
+scanf("%d",&a);
+printf("\nEnter a value of B :");
+scanf("%d",&b);
+printf("\nEnter a Value Of C :");
+scanf("%d",&c);
+if(a>b)
+
+
+{
+    if(a>c)
+    {
+        printf("\n\nA Is Big Value...");
+    }
+    else
+    
+    {
+        printf("\n\nC Is Big Value...");
+    }
+}
+
+    else 
+    
+    {
+        printf("\n\nB Is Big Value...");
+    }
+
+return 0;
+
+}
