@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int m1,m2,m3,m4,m5,sum;
+    float num;
+    printf("Enter A Value Of M1 :");
+    scanf("%d",&m1);
+    printf("Enter A Value Of M2 :");
+    scanf("%d",&m2);
+    printf("Enter A Value Of M3 :");
+    scanf("%d",&m3);
+    printf("Enter A Value Of M4 :");
+    scanf("%d",&m4);
+    printf("Enter A Value Of M5 :");
+    scanf("%d",&m5);
+    
+    sum=m1+m2+m3+m4+m5;
+    
+    printf("\n\nThe Mark Is :%d",sum);
+    
+    num=sum/5;
+    
+    printf("\n\nThe Avg Is  :%f",num);
+  return 0;
+}
+
