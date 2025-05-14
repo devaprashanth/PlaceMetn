@@ -7,10 +7,14 @@ case1:
 {
 printf("A");
 }
+break;
+
 case2:
 {
 printf("VET Mess");
 }
+break;
+
 default:
 {
 printf("B");
