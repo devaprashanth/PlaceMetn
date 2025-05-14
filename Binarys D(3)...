@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    char csa;
+    
+    printf("%d",a/2^b);
+    return 0;
+    
+}
