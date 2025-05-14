@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+
+char v;
+scanf("%c",&v);
+
+if(v=='a'||'e'||'i'||'o'||'u')
+{
+printf("The Charactor Is Vowle....");
+}
+else
+{
+    printf("The Charactor Is Not Vowle...");
+}
+return 0;
+}
