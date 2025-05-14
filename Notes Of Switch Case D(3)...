@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+switch(31)
+{
+case1:
+{
+printf("A");
+}
+case2:
+{
+printf("VET Mess");
+}
+default:
+{
+printf("B");
+}
+return 0:
+}
